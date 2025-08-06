@@ -1,0 +1,4 @@
+m=1
+n=10
+squares = {x*x for x in range(m,n+1) if x%2==0}
+print(squares)
