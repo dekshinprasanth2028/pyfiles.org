@@ -1,0 +1,7 @@
+l=list(eval(input("Enter any numbers")))
+l1=[]
+for i in l:
+    if i%2 == 0:
+        l1.append(i)
+print(l)
+print(l1)
